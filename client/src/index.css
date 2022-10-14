@@ -1,0 +1,11 @@
+:root{
+    --primary:#05c950c4;
+    --secondary:#c94219;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}

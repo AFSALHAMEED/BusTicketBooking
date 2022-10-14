@@ -1,0 +1,99 @@
+.h-screen{
+    height: 100vh;
+}
+.w-400{
+    width: 400px;
+}
+input,select {
+    height: 40px;
+    border: 2px solid grey;
+    width: 100%;
+    padding-left: 20px;
+    background-color: white;
+}
+.card{
+    border: 2px solid grey;
+box-shadow: 0 0 1px rgb(189, 187, 187);
+border-radius: 0 !important;
+}
+.ant-form-item{
+    margin-bottom: 0px !important;
+}
+h5{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.text-2xl{
+    font-size: 30px !important;
+}
+.text-xl{
+    font-size: 25px !important;
+}
+.text-lg{
+    font-size: 20px !important;
+}
+.text-md{
+    font-size: 18px !important;
+}
+.primary-btn{
+    background-color: var(--primary) !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.secondary-btn{
+    background-color: var(--secondary) !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+.outline{
+    border: 2px solid rgba(16, 107, 16, 0.966) !important;
+}
+.disabled-btn{
+    background-color: gray !important;
+    color: white;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 0 !;
+    cursor: not-allowed;
+}
+button {
+    border: 0px !important;
+}
+a{
+    text-decoration: none !important;
+    color: var(--primary) !important;
+}
+h1,p{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.spinner-parent{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.spinner-border{
+    color: white;
+    height: 80px;
+    width: 80px;
+}
+p{
+    cursor: pointer;
+}
