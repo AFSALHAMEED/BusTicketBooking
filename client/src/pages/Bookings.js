@@ -21,6 +21,7 @@ function Bookings() {
       dispatch(hideLoading());
       if (response.data.success) {
         const mappedData = response.data.data.map((booking) => {
+          console.log("booking",booking);
           return {
             ...booking,
             ...booking.bus,
@@ -28,6 +29,7 @@ function Bookings() {
           };
         });
         setBooking(mappedData);
+        console.log(mappedData);
       } else {
         message.error(response.data.message);
       }

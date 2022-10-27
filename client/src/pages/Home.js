@@ -82,8 +82,9 @@ function Home() {
             <button className="btn btn-outline-success outline" onClick={()=>setFilter({
               from:"",
               to:"",
-              journeyDate:""
-            })}>Clear</button>
+              journeyDate:"" 
+
+            })} >Clear</button>
             </div>
             
            

@@ -58,47 +58,47 @@ function BusForm({
         initialValues={selectedBus}
       >
         <Row gutter={[10, 10]}>
-          <Col lg={24} xs={24}>
+          <Col lg={232} xs={8} sm={16}>
             <Form.Item label="Bus Name" name="name">
               <input type="text" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={132} xs={8} sm={16} >
             <Form.Item label="Bus Number" name="number">
               <input type="text" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={132} xs={8} sm={16}>
             <Form.Item label="Capacity" name="capacity">
               <input type="number" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={132} xs={8} sm={16}>
             <Form.Item label="From" name="from">
               <input type="text" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={132} xs={8} sm={16}>
             <Form.Item label="To" name="to">
               <input type="text" />
             </Form.Item>
           </Col>
-          <Col lg={8} xs={24}>
+          <Col lg={32} xs={8} sm={16}>
             <Form.Item label="Journey Date" name="journeyDate">
               <input type="date" />
             </Form.Item>
           </Col>
-          <Col lg={8} xs={24}>
+          <Col lg={32} xs={8} sm={16}>
             <Form.Item label="Departure" name="departure">
               <input type="time" />
             </Form.Item>
           </Col>
-          <Col lg={8} xs={24}>
+          <Col lg={32} xs={8} sm={16}>
             <Form.Item label="Arrival" name="arrival">
               <input type="time" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={32} xs={8} sm={16}>
             <Form.Item label="Type" name="type">
             <select name="" id="">
                 <option value="AC">AC</option>
@@ -106,12 +106,12 @@ function BusForm({
                 </select>         
                    </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={32} xs={8} sm={16}>
             <Form.Item label="Fare" name="fare">
               <input type="text" />
             </Form.Item>
           </Col>
-          <Col lg={12} xs={24}>
+          <Col lg={132} xs={8} sm={16}>
             <Form.Item label="Status" name="status">
               <select name="" id="">
                 <option value="Yet To Start">Yet To Start</option>

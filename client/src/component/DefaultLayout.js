@@ -48,7 +48,7 @@ function DefaultLayout({ children }) {
     },
     {
       name: "Bookings",
-      path: "/admin/bookings",
+      path: "/bookings",
       icons: "ri-file-list-fill",
     },
     {

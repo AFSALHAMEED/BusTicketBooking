@@ -89,7 +89,7 @@ router.post("/get-bookings-by-user-id", authMiddleware, async (req, res) => {
     const bookings = await Booking.find({ user: req.body.userId })
       .populate("bus")
       .populate("user");
-
+    console.log(bookings);
     res.status(200).send({
       message: "Buses Fetching Successfully",
       data: bookings,

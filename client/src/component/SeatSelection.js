@@ -17,7 +17,7 @@ function SeatSelection(props) {
   return (
     <div className="mx-5">
       <div className="bus-container">
-        <Row gutter={[10, 10]}>
+        <Row gutter={[10,10]}>
           { Array.from(Array(capacity).keys()).map((seat) => {
             let seatClass = ''
             if (props.selectedSeats.includes(seat+1)) {
@@ -37,7 +37,7 @@ function SeatSelection(props) {
                   {seat + 1}
                 </div>
               </Col>
-            );
+            )
           })}
         </Row>
       </div>

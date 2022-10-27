@@ -128,8 +128,12 @@ res.status(200).send({
 // update user
 
 router.post("/update-user",authMiddleware, async (req,res)=>{
+
   try {
+    console.log("id and body ",req.body._id);
+
     await User.findByIdAndUpdate(req.body._id,req.body)
+
     res.status(200).send({
       message:"updated successfully",
       success:true,
